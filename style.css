@@ -1,0 +1,18 @@
+.clearfix{
+    clear: both;
+}
+article {
+    text-align: justify;
+    width: 22.5%;
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 1.25%;
+    border-radius: 0 50px 0 50px;
+}
+article:hover{
+    box-shadow: 3px 3px 5px 1px gray;
+    cursor: pointer;
+    transition: box-shadow 0.25s;
+}
